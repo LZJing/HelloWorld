@@ -56,7 +56,7 @@ public class MainActivity extends Activity {
             @Override
             public void run() {
                 bmp = ImageLoader.getInstance().loadImageSync(imageUrl);
-                Log.v("Tag", "getBitMap 第二版");
+                Log.v("Tag", "getBitMap 第三版");
                 Message message = new Message();
                 message.what =1;
                 handler.sendMessage(message);
